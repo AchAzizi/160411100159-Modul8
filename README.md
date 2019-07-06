@@ -25,9 +25,6 @@ height    : merupakan tinggi tree, nilai dari height ini adalah level maksimum d
 
 
 # Binaary Tree dalam Struktur Data
-Pohon biner adalah pohon dengan syarat bahwa tiap node hanya memiliki boleh maksimal dua subtree dan kedua subtree tersebut harus terpisah.
-Sesuai dengan definisi tersebut, maka tiap node dalam binary tree hanya boleh memiliki paling banyak dua anak/child.
-
 Berikut implementasi class binary Tree, dimana pada class ini terdapat tiga buah property atau state,
 yaitu key, leftChild, dan rightChild. Key digunakan untuk informasi nilai yang terdapat pada node, lefchild dan
 rightchild digunakan sebagai pointer untuk menunjukkan child sebelah kiri dan kanan dari node
@@ -124,7 +121,8 @@ root dari suatu binary tree.
     
 # Pharsing Binary Tree
 Binary tree dapat digunakan untuk beberapa aplikasi seperti penyelesaian persamaan matematika.
-Misalkan terdapat persamaan ((7+3)*(5-2)).
+Misalkan terdapat persamaan ((7+3)*(5-2))
+
 Penyelesaian persamaan matematika tergantung pada operator precedence dan keberadaan kurung.
 Jika terdapat tanda kurung buka maupun tutup, maka persamaan di dalam kurung tersebut haruslah diselesaikan pertama kali
 walapun level operator precedence lebih rendah dibandingkan operator yang berada di luar kurung.
